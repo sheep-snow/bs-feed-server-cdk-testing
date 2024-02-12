@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/debug.py",
+            "console": "integratedTerminal",
+            "args": [],
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}",
+                "AWS_PRPFILE": "default"
+            },
+            "envFile": "${workspaceFolder}/.env.dev"
+        }
+    ]
+}
